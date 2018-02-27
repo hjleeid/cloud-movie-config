@@ -1,7 +1,4 @@
-
 spring:
-  application:
-    name: cloud-movie-k8s
   datasource:
     initialize: true
     platform: mysql
