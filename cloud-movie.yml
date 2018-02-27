@@ -1,0 +1,21 @@
+management:
+  security:
+    enabled: false
+ 
+server:
+  port: 8090
+ 
+spring:
+  application:
+    name: cloud-movie
+  datasource:
+    initialize: true
+    platform: h2
+    url: jdbc:h2:mem:moviedb;
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+
+  
